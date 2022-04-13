@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+html, body{
+    height: 100%;
+}
+body{
+    background-color: black;
+}
+.bt-previous,.bt-next{
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    cursor: pointer;
+    z-index: 9999;
+}
+.bt-previous{
+    top:0;
+    left: 0;
+}
+.bt-next{
+    top:0;
+    right: 0%;
+}
+.slide{
+    position: absolute;
+    max-height: 100%;
+    max-width: 100%;
+    left:50%;
+    top:50%;
+    transform: translate(-50%, -50%);
+}
